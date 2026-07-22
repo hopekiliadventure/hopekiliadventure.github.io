@@ -156,20 +156,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.getElementById("menu-toggle");
     const navbar = document.getElementById("navbar");
 
-    if (menuToggle && navbar) {
+    menuToggle.addEventListener("click", function () {
 
-        menuToggle.addEventListener("click", function () {
-            menuToggle.classList.toggle("active");
-            navbar.classList.toggle("active");
-        });
+        if (navbar.style.display === "block") {
+            navbar.style.display = "none";
+        } else {
+            navbar.style.display = "block";
+        }
 
-        document.querySelectorAll(".navbar a").forEach(link => {
-            link.addEventListener("click", function () {
-                menuToggle.classList.remove("active");
-                navbar.classList.remove("active");
-            });
-        });
+        menuToggle.classList.toggle("active");
+    });
 
-    }
 
 });
