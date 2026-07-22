@@ -345,11 +345,8 @@ section h2{
         gap:12px;
     }
 
-    .header .container{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-    }
+   .header .container{
+    flex-direction:column;
 }
 
     .logo img{
