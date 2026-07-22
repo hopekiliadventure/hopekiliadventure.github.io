@@ -1,1 +1,3 @@
-console.log("HOPE Kilimanjaro Adventure website loaded!");
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Hope Kilimanjaro Adventure website loaded successfully!");
+});
