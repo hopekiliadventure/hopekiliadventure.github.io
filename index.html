@@ -1,177 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hope Kilimanjaro Adventure</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOPE Kilimanjaro Adventure</title>
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
+    <meta name="description" content="Mount Kilimanjaro trekking, Mount Meru, Tanzania safaris, cultural tours and day trips.">
 
-body{
-    background:#f5f5f5;
-    color:#333;
-}
-
-header{
-    background:#0d6efd;
-    color:white;
-    padding:15px 8%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-header h1{
-    font-size:28px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-weight:bold;
-}
-
-.hero{
-    height:85vh;
-    background:url("https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1600&q=80") center center/cover;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.hero-box{
-    background:rgba(0,0,0,0.55);
-    color:white;
-    text-align:center;
-    padding:40px;
-    border-radius:10px;
-}
-
-.hero h2{
-    font-size:48px;
-    margin-bottom:15px;
-}
-
-.hero p{
-    font-size:20px;
-    margin-bottom:25px;
-}
-
-.btn{
-    background:#ffc107;
-    color:black;
-    text-decoration:none;
-    padding:15px 30px;
-    border-radius:30px;
-    font-weight:bold;
-}
-
-section{
-    padding:70px 8%;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
-
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:25px;
-}
-</style>
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Hope Kilimanjaro Adventure</h1>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <img src="images/logo.png" alt="Hope Kilimanjaro Adventure Logo" class="logo">
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Trekking</a>
-        <a href="#">Safari</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="routes.html">Routes</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="hero">
-    <div class="hero-box">
-        <h2>Reach the Roof of Africa</h2>
+    <!-- Hero Section -->
+    <section class="hero">
 
-        <p>Experience Mount Kilimanjaro with experienced local guides.</p>
+        <img src="images/hero.jpg"
+             alt="Mount Kilimanjaro"
+             class="hero-image">
 
-        <a class="btn" href="#">Book Your Adventure</a>
-    </div>
-</section>
+        <div class="hero-text">
 
-<section>
+            <h1>Reach the Roof of Africa</h1>
 
-<h2 style="text-align:center;margin-bottom:40px;">
-Why Choose Hope Kilimanjaro Adventure
-</h2>
+            <p>
+                Welcome to <strong>Hope Kilimanjaro Adventure</strong>,
+                your trusted local trekking company in Tanzania.
+                We specialize in Mount Kilimanjaro climbs,
+                Mount Meru trekking,
+                wildlife safaris,
+                cultural tours,
+                and unforgettable day trips.
+            </p>
 
-<div class="cards">
+            <a href="contact.html" class="btn">
+                Book Your Adventure
+            </a>
 
-<div class="card">
-<h3>🏔 Expert Local Guides</h3>
-<p>Experienced mountain guides with years of Kilimanjaro experience.</p>
-</div>
+        </div>
 
-<div class="card">
-<h3>🦁 Safari Tours</h3>
-<p>Explore Serengeti, Ngorongoro and Tarangire National Parks.</p>
-</div>
+    </section>
 
-<div class="card">
-<h3>🌴 Zanzibar Holidays</h3>
-<p>Relax on beautiful beaches after your Kilimanjaro climb.</p>
-</div>
+    <!-- About Preview -->
+    <section class="about">
 
-</div>
+        <h2>About Us</h2>
 
-</section>
+        <p>
+            Hope Kilimanjaro Adventure is more than just a travel company.
+            We are passionate local guides dedicated to helping travelers
+            conquer Mount Kilimanjaro and experience the beauty of Tanzania.
+        </p>
 
-<section style="background:white;">
+        <a href="about.html">Read More</a>
 
-<h2 style="text-align:center;margin-bottom:25px;">
-Contact Us
-</h2>
+    </section>
 
-<p style="text-align:center;font-size:20px;">
-📱 WhatsApp: +255 XXX XXX XXX
-</p>
+    <!-- Featured Tours -->
+    <section class="tours">
 
-<p style="text-align:center;">
-✉️ info@hopekilimanjaroadventure.com
-</p>
+        <h2>Popular Adventures</h2>
 
-</section>
+        <div class="tour-card">
+            <h3>Machame Route</h3>
+            <p>7 Days Trek</p>
+        </div>
 
-<footer>
+        <div class="tour-card">
+            <h3>Lemosho Route</h3>
+            <p>8 Days Trek</p>
+        </div>
 
-© 2026 Hope Kilimanjaro Adventure
+        <div class="tour-card">
+            <h3>Marangu Route</h3>
+            <p>6 Days Trek</p>
+        </div>
 
-</footer>
+        <div class="tour-card">
+            <h3>Mount Meru Trek</h3>
+            <p>4 Days Adventure</p>
+        </div>
+
+        <div class="tour-card">
+            <h3>Wildlife Safaris</h3>
+            <p>Serengeti • Ngorongoro • Tarangire</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>📞 +255 755 069 631</p>
+
+        <p>📧 hopekiliadventure@gmail.com</p>
+
+        <a href="contact.html" class="btn">
+            Contact Now
+        </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2025 HOPE Kilimanjaro Adventure.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
