@@ -346,8 +346,11 @@ section h2{
     }
 
     .header .container{
-        flex-direction:column;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
     }
+}
 
     .logo img{
       height:45px;
