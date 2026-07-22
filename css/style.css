@@ -414,18 +414,21 @@ section h2{
     z-index:5;
     padding:20px;
 }
-
 .hero-overlay h1{
     font-size:4.5rem;
     line-height:1.1;
     font-weight:700;
     text-shadow:0 5px 20px rgba(0,0,0,.5);
+    color:#7AC9E8;
 }
-
 .gold{
-    color:#d4af37;
+    color:#7AC9E8;
 }
 
+.hero-overlay h1{
+    color:#7AC9E8;
+    text-shadow:0 2px 8px rgba(0,0,0,.35);
+}
 .hero-overlay p{
     margin-top:20px;
     font-size:1.4rem;
