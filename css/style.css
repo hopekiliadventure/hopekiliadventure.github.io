@@ -666,14 +666,13 @@ section h2{
     left:0;
     width:100%;
     background:rgba(8,8,8,.97);
-    max-height:0;
-    overflow:hidden;
-    transition:max-height .4s ease;
+     display:none;
 }
 
 .navbar.active{
-    max-height:500px;
+    display:block;
 }
+
 
 .navbar ul{
     flex-direction:column;
