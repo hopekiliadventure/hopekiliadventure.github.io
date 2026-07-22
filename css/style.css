@@ -81,7 +81,6 @@ a{
 /* ================= HERO ================= */
 
 
-}
 .hero{
     position:relative;
     height:75vh;
@@ -328,42 +327,6 @@ section h2{
     padding:25px;
 }
 
-/* ================= MOBILE HEADER ================= */
-
-@media (max-width:768px){
-
-    .header .container{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items:center;
-        padding:10px 20px;
-    }
-
-    .logo{
-        justify-self:start;
-    }
-
-   .logo img{
-    height:55px;
-}
-
-
-}
-
-    .menu-toggle{
-        display:block;
-        justify-self:center;
-        width:35px;
-    }
-
-    .navbar{
-        position:fixed;
-        top:0;
-        right:-280px;
-        width:280px;
-        height:100vh;
-    }
-}
 /* ==========================================
    HERO IMAGE SLIDER
 ========================================== */
@@ -555,56 +518,7 @@ section h2{
     background:#b88f24;
     transform:translateY(-4px);
 }
-/* ==========================
-   MOBILE HAMBURGER MENU
-========================== */
 
-.menu-toggle{
-    display:none;
-    font-size:32px;
-    color:#fff;
-    cursor:pointer;
-}
-
-/* Mobile */
-
-@media (max-width:768px){
-
-.menu-toggle{
-    display:block;
-}
-
-.navbar{
-    position:absolute;
-    top:100%;
-    left:0;
-    width:100%;
-    background:rgba(0,0,0,.95);
-    display:none;
-}
-
-.navbar.active{
-    display:block;
-}
-
-.navbar ul{
-    flex-direction:column;
-    padding:20px 0;
-    text-align:center;
-    gap:0;
-}
-
-.navbar li{
-    margin:15px 0;
-}
-
-.navbar a{
-    display:block;
-    padding:12px;
-    font-size:18px;
-}
-
-}
 /* ===================================
    MODERN HAMBURGER MENU
 =================================== */
