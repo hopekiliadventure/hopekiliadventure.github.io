@@ -151,30 +151,25 @@ function restartSlider(){
 }
 
 startSlider();
-const menuToggle = document.getElementById("menu-toggle");
-const navbar = document.getElementById("navbar");
+document.addEventListener("DOMContentLoaded", function () {
 
-menuToggle.addEventListener("click", () => {
-    navbar.classList.toggle("active");
-});
-document.querySelectorAll(".navbar a").forEach(link => {
-    link.addEventListener("click", () => {
-        navbar.classList.remove("active");
-    });
-});
-<script>
-const toggle = document.getElementById("menu-toggle");
-const nav = document.getElementById("navbar");
+    const menuToggle = document.getElementById("menu-toggle");
+    const navbar = document.getElementById("navbar");
 
-toggle.addEventListener("click", () => {
-    toggle.classList.toggle("active");
-    nav.classList.toggle("active");
-});
+    if (menuToggle && navbar) {
 
-document.querySelectorAll(".navbar a").forEach(link => {
-    link.addEventListener("click", () => {
-        toggle.classList.remove("active");
-        nav.classList.remove("active");
-    });
+        menuToggle.addEventListener("click", function () {
+            menuToggle.classList.toggle("active");
+            navbar.classList.toggle("active");
+        });
+
+        document.querySelectorAll(".navbar a").forEach(link => {
+            link.addEventListener("click", function () {
+                menuToggle.classList.remove("active");
+                navbar.classList.remove("active");
+            });
+        });
+
+    }
+
 });
-</script>
