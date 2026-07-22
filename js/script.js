@@ -4,17 +4,17 @@
 // ===========================================
 
 // Sticky header background
-window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
+const header = document.querySelector(".header");
 
-    if (window.scrollY > 80) {
-        header.style.background = "rgba(11,93,59,0.95)";
-        header.style.transition = "0.3s";
-    } else {
-        header.style.background = "rgba(0,0,0,0.55)";
+window.addEventListener("scroll", () => {
+
+    if(window.scrollY > 60){
+        header.classList.add("scrolled");
+    }else{
+        header.classList.remove("scrolled");
     }
-});
 
+});
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener("click", function (e) {
