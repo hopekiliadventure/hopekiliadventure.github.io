@@ -331,11 +331,14 @@ section h2{
 @media (max-width:768px){
 
     .header .container{
-        display:flex;
-        justify-content:space-between;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items:center;
-        flex-direction:row;   /* Keep logo and menu on one line */
         padding:10px 20px;
+    }
+
+    .logo{
+        justify-self:start;
     }
 
     .logo img{
@@ -345,10 +348,17 @@ section h2{
 
     .menu-toggle{
         display:block;
+        justify-self:center;
         width:35px;
-        cursor:pointer;
     }
 
+    .navbar{
+        position:fixed;
+        top:0;
+        right:-280px;
+        width:280px;
+        height:100vh;
+    }
 }
 /* ==========================================
    HERO IMAGE SLIDER
