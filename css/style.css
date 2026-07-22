@@ -613,3 +613,96 @@ section h2{
 }
 
 }
+/* ===================================
+   MODERN HAMBURGER MENU
+=================================== */
+
+.menu-toggle{
+    display:none;
+    width:35px;
+    cursor:pointer;
+    z-index:1001;
+}
+
+.menu-toggle span{
+    display:block;
+    height:4px;
+    background:#fff;
+    margin:7px 0;
+    border-radius:3px;
+    transition:.35s;
+}
+
+/* Animate to X */
+
+.menu-toggle.active span:nth-child(1){
+    transform:translateY(11px) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2){
+    opacity:0;
+}
+
+.menu-toggle.active span:nth-child(3){
+    transform:translateY(-11px) rotate(-45deg);
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.menu-toggle{
+    display:block;
+}
+
+.header .container{
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:rgba(8,8,8,.97);
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .4s ease;
+}
+
+.navbar.active{
+    max-height:500px;
+}
+
+.navbar ul{
+    flex-direction:column;
+    text-align:center;
+    gap:0;
+    padding:20px 0;
+}
+
+.navbar li{
+    margin:15px 0;
+}
+
+.navbar a{
+    display:block;
+    color:#fff;
+    font-size:18px;
+    padding:12px;
+}
+
+.navbar a:hover{
+    color:#7AC9E8;
+}
+
+.book-btn-small{
+    display:inline-block;
+    margin-top:10px;
+    background:#d4af37;
+    padding:12px 30px;
+    border-radius:40px;
+}
+
+}
