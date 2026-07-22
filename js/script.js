@@ -162,3 +162,19 @@ document.querySelectorAll(".navbar a").forEach(link => {
         navbar.classList.remove("active");
     });
 });
+<script>
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("navbar");
+
+toggle.addEventListener("click", () => {
+    toggle.classList.toggle("active");
+    nav.classList.toggle("active");
+});
+
+document.querySelectorAll(".navbar a").forEach(link => {
+    link.addEventListener("click", () => {
+        toggle.classList.remove("active");
+        nav.classList.remove("active");
+    });
+});
+</script>
