@@ -514,3 +514,40 @@ section h2{
 }
 
 }
+/* ================= BOOK CTA ================= */
+
+.book-section{
+    background:#0b5d3b;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.book-section h2{
+    font-size:2.3rem;
+    margin-bottom:15px;
+}
+
+.book-section p{
+    max-width:700px;
+    margin:0 auto 30px;
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.book-btn{
+    display:inline-block;
+    padding:18px 40px;
+    background:#d4af37;
+    color:white;
+    text-decoration:none;
+    font-size:1.2rem;
+    font-weight:bold;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    background:#b88f24;
+    transform:translateY(-4px);
+}
