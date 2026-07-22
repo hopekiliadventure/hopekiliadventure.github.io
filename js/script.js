@@ -142,14 +142,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (menuToggle && navbar) {
 
         menuToggle.addEventListener("click", () => {
-            navbar.classList.toggle("active");
             menuToggle.classList.toggle("active");
+            navbar.classList.toggle("active");
         });
 
         document.querySelectorAll(".navbar a").forEach(link => {
             link.addEventListener("click", () => {
-                navbar.classList.remove("active");
                 menuToggle.classList.remove("active");
+                navbar.classList.remove("active");
             });
         });
 
