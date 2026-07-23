@@ -128,27 +128,30 @@ a{
 }
 
 .btn:hover{
-    background:#0b5d3b;
+    background:#6E7F52;
     transform:translateY(-3px);
 }
 
 /* ================= SECTIONS ================= */
 
 section{
-      padding:50px 20px;
+    padding:50px 20px;
+    background:#F7F2E8;   /* Natural light beige */
 }
 
 section h2{
     text-align:center;
     font-size:2.3rem;
-    color:#0b5d3b;
+    color:#6E7F52;
     margin-bottom:40px;
 }
 
 /* ================= ABOUT ================= */
 
-.about{
-    background:#ffffff;
+.about,
+.routes,
+.testimonials{
+    background:#FFFFFF;
 }
 
 .about p{
@@ -166,13 +169,13 @@ section h2{
 
 .why-us{
     padding:100px 8%;
-    background:#f7f7f7;
+    background:#F7F2E8;
     text-align:center;
 }
 
 .why-us h2{
     font-size:2.6rem;
-    color:#0b5d3b;
+    color:#6E7F52;
     margin-bottom:20px;
 }
 
@@ -190,7 +193,7 @@ section h2{
 }
 
 .feature-card{
-    background:white;
+     background:#FCFAF6;
     padding:40px 30px;
     border-radius:15px;
     transition:.3s;
@@ -207,7 +210,7 @@ section h2{
 }
 
 .feature-card h3{
-    color:#0b5d3b;
+    color:#6E7F52;
     margin-bottom:15px;
 }
 
@@ -229,8 +232,8 @@ section h2{
 }
 
 .route-card{
-    background:#fff;
-    border-radius:12px;
+   background:#FCFAF6;
+   border-radius:12px;
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
     transition:.3s;
@@ -248,7 +251,7 @@ section h2{
 
 .route-card h3{
     padding:20px 20px 10px;
-    color:#0b5d3b;
+    color:#6E7F52;
 }
 
 .route-card p{
@@ -258,7 +261,7 @@ section h2{
 /* ================= SAFARI ================= */
 
 .safari{
-    background:#0b5d3b;
+    background:#6E7F52;
     color:#fff;
     text-align:center;
 }
@@ -271,7 +274,7 @@ section h2{
 /* ================= GALLERY ================= */
 
 .gallery-preview{
-    background:#fafafa;
+     background:#F7F2E8;
 }
 
 .gallery-grid{
@@ -309,8 +312,8 @@ section h2{
 /* ================= CONTACT ================= */
 
 .contact{
-    background:#f4f4f4;
-    text-align:center;
+ background:#F7F2E8;
+   text-align:center;
 }
 
 .contact p{
@@ -481,7 +484,7 @@ section h2{
 /* ================= BOOK CTA ================= */
 
 .book-section{
-    background:#0b5d3b;
+    background:#6E7F52;
     color:white;
     text-align:center;
     padding:60px 20px;
