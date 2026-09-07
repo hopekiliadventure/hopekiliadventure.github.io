@@ -316,9 +316,9 @@ section h2{
 @media (min-width: 768px) {
     .testimonial-photo {
         display: block !important;
-        width: 80px !important;
-        height: 80px !important;
-        max-width: 80px !important;
+        width: 120px !important;
+        height: 120px !important;
+        max-width: 120px !important;
         margin: 20px auto !important;
         object-fit: cover !important;
     }
