@@ -317,22 +317,14 @@ section h2{
 @media (max-width: 768px) {
     .testimonial img,
     .testimonial-photo {
-        width: 100% !important;
-        max-width: 100% !important;
-        height: auto !important;
-        min-width: 0 !important;
-        min-height: 0 !important;
-        object-fit: contain !important;
         display: block !important;
-        margin: 0 auto 15px !important;
+        width: 90% !important;
+        max-width: 500px !important;
+        height: auto !important;
+        margin: 20px auto !important;
+        object-fit: contain !important;
     }
 
-    .testimonial {
-        width: 100% !important;
-        max-width: 100% !important;
-        height: auto !important;
-        overflow: visible !important;
-    }
 }
 
 /* ================= CONTACT ================= */
