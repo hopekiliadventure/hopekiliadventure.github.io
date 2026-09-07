@@ -312,6 +312,13 @@ section h2{
     font-style:italic;
 }
 
+.testimonial-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* ================= CONTACT ================= */
 
 .contact{
