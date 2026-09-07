@@ -325,6 +325,13 @@ section h2{
         object-fit: contain !important;
     }
 
+   @media (min-width: 768px) {
+    .testimonial img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+}
 }
 
 /* ================= CONTACT ================= */
