@@ -312,13 +312,15 @@ section h2{
     font-style:italic;
 }
 
+
 @media (min-width: 768px) {
     .testimonial-photo {
         display: block !important;
-        width: 180px !important;
-        max-width: 180px !important;
-        height: auto !important;
+        width: 120px !important;
+        height: 120px !important;
+        max-width: 120px !important;
         margin: 20px auto !important;
+        object-fit: contain !important;
     }
 }
 
