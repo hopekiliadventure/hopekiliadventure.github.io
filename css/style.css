@@ -314,20 +314,15 @@ section h2{
 
 
 @media (min-width: 768px) {
-    .testimonial img {
-        width: 120px;
-        height: 120px;
-        object-fit: cover;
-       },
-
     .testimonial-photo {
         display: block !important;
-        width: 90% !important;
-        max-width: 500px !important;
-        height: auto !important;
+        width: 120px !important;
+        height: 120px !important;
+        max-width: 120px !important;
         margin: 20px auto !important;
-        object-fit: contain !important;
-    
+        object-fit: cover !important;
+    }
+}
 
    
     }
