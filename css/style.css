@@ -313,10 +313,12 @@ section h2{
 }
 
 .testimonial-photo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px;
 }
 
 /* ================= CONTACT ================= */
