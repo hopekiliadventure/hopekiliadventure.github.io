@@ -312,15 +312,28 @@ section h2{
     font-style:italic;
 }
 
-.testimonial-photo {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto 15px;
-}
 
+
+@media (max-width: 768px) {
+    .testimonial img,
+    .testimonial-photo {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        object-fit: contain !important;
+        display: block !important;
+        margin: 0 auto 15px !important;
+    }
+
+    .testimonial {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+}
 
 /* ================= CONTACT ================= */
 
