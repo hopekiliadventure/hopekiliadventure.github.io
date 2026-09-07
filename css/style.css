@@ -313,9 +313,13 @@ section h2{
 }
 
 
+@media (min-width: 768px) {
+    .testimonial img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+       },
 
-@media (max-width: 768px) {
-    .testimonial img,
     .testimonial-photo {
         display: block !important;
         width: 90% !important;
@@ -323,13 +327,9 @@ section h2{
         height: auto !important;
         margin: 20px auto !important;
         object-fit: contain !important;
-    }
+    
 
-   @media (min-width: 768px) {
-    .testimonial img {
-        width: 120px;
-        height: 120px;
-        object-fit: cover;
+   
     }
 }
 }
